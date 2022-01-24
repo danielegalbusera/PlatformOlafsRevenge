@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Story</title>
+<link rel="icon" href="Immagini_def/Favicon 16x16.png" type="image/png" />
+
+
+ <script src="Slideshow.js"></script>
+
+
+	<style>
+
+		body {margin: 0px;
+			  height: auto;
+			  background-image: url("Immagini_def/Pattern.png");
+			  background-size: cover;
+		      overflow:auto;
+			  }
+
+
+#wrapper {height: 768px;
+          width: 1024px;
+          top: 50%;
+		  left: 50%;
+	      position: absolute;
+	      transform: translate(-50%, -50%);}
+
+
+.immagine{display: block;
+	      margin: 0;
+	      margin-left: auto;
+	      margin-right: auto;
+		  height: 768px;
+	      width: 1024px;}
+
+
+/* Next & previous buttons */
+.prev  {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 1%;
+  width:auto;
+  padding: 17px 23px;
+  background-image: url("Tasto_sx.png");
+  opacity: 1;
+  }
+
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  right:1%;
+  width:auto;
+  padding: 17px 23px;
+  background-image: url("Tasto_dx.png");
+  opacity: 1;
+  }
+
+.back_home {cursor: pointer;
+            position: absolute;
+            top: 4.5%;
+            right:2%;
+            width:auto;
+            padding: 20px 27px;
+            background-image: url("Immagini_def/Bottone_home_def.png");
+	        border: none;
+	        }
+
+.play      {background-image: url("Immagini_def/Play_legno.png");
+	        cursor: pointer;
+                position: absolute;
+                top: 90%;
+                right:2%;
+                width:auto;
+                padding: 19.5px 41px;
+	        border:none;
+                font-family: "Astaroth";
+	        color: white;
+	        font-size: 2em;
+	        text-align: center;
+	        opacity: 1;}
+
+
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+
+	<div id="wrapper"> <!-- didascalie -->
+
+	<div class="mySlides fade">
+		    <img src="Immagini_def/Prima didascalia.gif" class="immagine"> <!-- scena 1 -->
+	  </div>
+
+<div class="mySlides fade">
+    <img src="Immagini_def/scena_1.jpg" class="immagine"> <!-- scena 1 -->
+  </div>
+
+<div class="mySlides fade">
+    <img src="Immagini_def/Seconda didascalia.gif" class="immagine"> <!-- scena 2 -->
+</div>
+
+<div class="mySlides fade">
+    <img src="Immagini_def/Scena_2.jpg" class="immagine"> <!-- scena 2 -->
+</div>
+
+<div class="mySlides fade">
+    <img src="Immagini_def/Terza didascalia.gif" class="immagine"> <!-- immagine messa in più -->
+</div>
+
+<div class="mySlides fade">
+    <img src="Immagini_def/Scena_3.jpg" class="immagine"> <!-- scena 3 -->
+  <a href="Olaf_aggiornato_20.html" class="play">  </a>
+
+
+</div>
+
+<a href="home.html" class="back_home"></a>
+<a class="prev" onclick="plusSlides(-1)"></a>
+<a class="next" onclick="plusSlides(1)"></a>
+
+
+</div>
+
+
+
+
+ <script type="text/javascript">
+    showSlides();
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Autori e crediti</title>
+	<link rel="icon" href="./Immagini_def/Favicon 16x16.png" type="image/png" />
+
+
+	<script src="Slideshow.js"></script>
+
+	<style>
+
+		body {margin: 0px;
+			  height: auto;
+			  background-image: url("./Immagini_def/Pattern.png");
+			  background-size: cover;
+		      overflow:auto;
+			  }
+
+
+#wrapper {height: 768px;
+          width: 1024px;
+          top: 50%;
+		  left: 50%;
+	      position: absolute;
+		  transform: translate(-50%, -50%);}
+
+.autori {display: block;
+	      margin: 0;
+	      margin-left: auto;
+	      margin-right: auto;
+		  height: 768px;
+	      width: auto;}
+
+
+.immagine{display: block;
+	      margin: 0;
+	      margin-left: auto;
+	      margin-right: auto;
+		  height: 768px;
+	      width: 1024px;}
+
+
+/* Next & previous buttons */
+.prev  {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 1%;
+  width:auto;
+  padding: 17px 23px;
+  background-image: url("./Tasto_sx.png");
+  opacity: 1;
+  }
+
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  right:1%;
+  width:auto;
+  padding: 17px 23px;
+  background-image: url("./Tasto_dx.png");
+  opacity: 1;
+  }
+
+
+.back_home {cursor: pointer;
+            position: absolute;
+            top: 4.5%;
+            right:2%;
+            width:auto;
+            padding: 20px 27px;
+            background-image: url("./Immagini_def/Bottone_home_def.png");
+	        border: none;
+	        }
+</style>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+<div class="mySlides fade">
+    <img src="./Immagini_def/autori_2.jpg" class="autori">
+  </div>
+
+<div class="mySlides fade">
+    <img src="./Immagini_def/Crediti.png" class="immagine">
+
+	<a href="./home.html" class="back_home"></a>
+
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"></a>
+<a class="next" onclick="plusSlides(1)"></a>
+<a href="./home.html" class="back_home"></a>
+
+</div>
+
+
+<script type="text/javascript">
+    showSlides();
+</script>
+
+
+
+</body>
+</html>

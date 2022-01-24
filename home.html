@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="home.js"></script>
+
+
+<title>Frozen - Olaf's Revenge</title>
+
+	<link rel="icon" href="Immagini_def/Favicon 16x16.png" type="image/png" />
+
+
+    <style>
+
+		body {margin: 0px auto;
+			  background-image: url("Immagini_def/Pattern.png");
+			  background-size: cover;
+		      overflow: auto;
+			  }
+
+
+		#wrapper {height: 768px;
+		          width: 1024px;
+			      top: 50%;
+			      left: 50%;
+			      position: absolute;
+			      transform: translate(-50%, -50%);
+			      }
+
+
+	   .copertina  {display: block;
+		            margin: auto;
+			        margin-left: auto;
+			        margin-right: auto;
+		            height: 768px;
+		            width: 1024px;}
+
+		.copertina2 {display: none;
+			        margin: auto;
+			        margin-left: auto;
+			        margin-right: auto;
+		            height: 768px;
+		            width: 1024px;}
+
+		.copertina3 {display: none;
+			        margin: auto;
+			        margin-left: auto;
+			        margin-right: auto;
+		            height: 768px;
+		            width: 1024px;}
+
+	   .copertina4 {display: none;
+			        margin: auto;
+			        margin-left: auto;
+			        margin-right: auto;
+		            height: 768px;
+		            width: 1024px;}
+
+
+		.story      {background-color: transparent;
+			        display:inline;
+                    padding: 1px 20px;
+			        font-family: "Astaroth";
+			        color:black;
+			        font-size: 2em;
+			        text-align: center;
+			        transform: rotate(3deg);
+                    margin: auto;
+                    opacity: 0;
+			        position:absolute;
+		            top: 59%;
+			        left: 13%;
+			        cursor: pointer;
+			        background-size: 2%, 2.5%;
+		            z-index: 1;}
+
+		 .play     {background-color: transparent;
+			        display:inline;
+                    padding: 0px 20px;
+			        font-family: "Astaroth";
+			        color:black;
+			        font-size: 2em;
+			        text-align: center;
+			        transform: rotate(-6deg);
+                    margin: auto;
+                    opacity: 0;
+			        position:absolute;
+		            top: 68.5%;
+			        left: 13%;
+			        cursor: pointer;
+			        background-size: 2%, 2.5%;
+		            z-index: 1;}
+
+		.credits   {background-color: transparent;
+			        background-size:contain;
+			        display:inline;
+                    padding: 0px 20px;
+			        font-family: "Astaroth";
+			        color:black;
+			        font-size: 2em;
+			        text-align: center;
+			        transform: rotate(6deg);
+                    margin: auto;
+                    opacity: 0;
+			        position:absolute;
+		            top: 77.35%;
+			        left: 13%;
+			        cursor: pointer;
+			        z-index: 1;}
+
+
+
+
+
+
+
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<!-- Contenitore dimensioni 1024x768 -->
+
+	<div id="wrapper">
+
+		<a href="pages/storia.html" onMouseOver="over1()" onMouseOut="out1()"> <button class="story">Story</button> </a>  <!-- Bottone storia con collegamento -->
+
+		<a href="pages/tutorial.html" onMouseOver="over2()" onMouseOut="out2()"> <button class="play">Play</button> </a>   <!-- Bottone play con collegamento -->
+
+		<a href="pages/autori e crediti.html" onMouseOver="over3()" onMouseOut="out3()"> <button class="credits">Credits</button> </a>   <!-- Bottone credits con collegamento -->
+
+
+
+		<img src="Immagini_def/Home_spenta.jpg" alt="Copertina" class="copertina" id="immagine1">  <!-- Immagine copertina spenta -->
+
+		<img src="Immagini_def/Home_story.jpg" alt="" class="copertina2" id="immagine2">  <!-- Imagine copertina Story-->
+
+		<img src="Immagini_def/Home_play.jpg" alt="" class="copertina3" id="immagine3"> <!-- immagine copertina play-->
+
+		<img src="Immagini_def/Home_credits.jpg" alt="" class="copertina4" id="immagine4">
+
+
+
+
+	</div>
+
+</body>
+</html>
